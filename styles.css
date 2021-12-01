@@ -1,0 +1,59 @@
+body{
+    background-color: #333;
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: #22c930;
+    padding: 2.6rem;
+    border-radius: .9rem;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+.password-display{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+}
+
+button{
+    padding: 1.2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border-style: none;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: burlywood;
+}
